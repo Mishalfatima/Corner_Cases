@@ -1,0 +1,28 @@
+no change     /work/mfatima/miniconda3/condabin/conda
+no change     /work/mfatima/miniconda3/bin/conda
+no change     /work/mfatima/miniconda3/bin/conda-env
+no change     /work/mfatima/miniconda3/bin/activate
+no change     /work/mfatima/miniconda3/bin/deactivate
+no change     /work/mfatima/miniconda3/etc/profile.d/conda.sh
+no change     /work/mfatima/miniconda3/etc/fish/conf.d/conda.fish
+no change     /work/mfatima/miniconda3/shell/condabin/Conda.psm1
+no change     /work/mfatima/miniconda3/shell/condabin/conda-hook.ps1
+no change     /work/mfatima/miniconda3/lib/python3.11/site-packages/xontrib/conda.xsh
+no change     /work/mfatima/miniconda3/etc/profile.d/conda.csh
+no change     /home/mfatima/.bashrc
+No action taken.
+Started at Fri Jun 13 23:31:21 CEST 2025
+Running job: ViT_Small array id: 10 using 8 cpus per node with given JID 34018 on queue gpu-vram-48gb
+--result
+{
+    "model": "vit_small_patch16_224.augreg_in21k_ft_in1k",
+    "top1": 50.338,
+    "top1_err": 49.662,
+    "top5": 71.932,
+    "top5_err": 28.068,
+    "param_count": 22.05,
+    "img_size": 224,
+    "crop_pct": 0.9,
+    "interpolation": "bicubic"
+}
+Runtime: 227

@@ -1,0 +1,28 @@
+no change     /work/mfatima/miniconda3/condabin/conda
+no change     /work/mfatima/miniconda3/bin/conda
+no change     /work/mfatima/miniconda3/bin/conda-env
+no change     /work/mfatima/miniconda3/bin/activate
+no change     /work/mfatima/miniconda3/bin/deactivate
+no change     /work/mfatima/miniconda3/etc/profile.d/conda.sh
+no change     /work/mfatima/miniconda3/etc/fish/conf.d/conda.fish
+no change     /work/mfatima/miniconda3/shell/condabin/Conda.psm1
+no change     /work/mfatima/miniconda3/shell/condabin/conda-hook.ps1
+no change     /work/mfatima/miniconda3/lib/python3.11/site-packages/xontrib/conda.xsh
+no change     /work/mfatima/miniconda3/etc/profile.d/conda.csh
+no change     /home/mfatima/.bashrc
+No action taken.
+Started at Fri Jun 13 09:29:42 CEST 2025
+Running job: CoAtNet array id: 2 using 8 cpus per node with given JID 33458 on queue gpu-vram-48gb
+--result
+{
+    "model": "coatnet_0_rw_224.sw_in1k",
+    "top1": 17.71,
+    "top1_err": 82.29,
+    "top5": 58.474,
+    "top5_err": 41.526,
+    "param_count": 27.44,
+    "img_size": 224,
+    "crop_pct": 0.95,
+    "interpolation": "bicubic"
+}
+Runtime: 405

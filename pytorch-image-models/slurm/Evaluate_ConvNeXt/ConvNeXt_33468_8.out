@@ -1,0 +1,28 @@
+no change     /work/mfatima/miniconda3/condabin/conda
+no change     /work/mfatima/miniconda3/bin/conda
+no change     /work/mfatima/miniconda3/bin/conda-env
+no change     /work/mfatima/miniconda3/bin/activate
+no change     /work/mfatima/miniconda3/bin/deactivate
+no change     /work/mfatima/miniconda3/etc/profile.d/conda.sh
+no change     /work/mfatima/miniconda3/etc/fish/conf.d/conda.fish
+no change     /work/mfatima/miniconda3/shell/condabin/Conda.psm1
+no change     /work/mfatima/miniconda3/shell/condabin/conda-hook.ps1
+no change     /work/mfatima/miniconda3/lib/python3.11/site-packages/xontrib/conda.xsh
+no change     /work/mfatima/miniconda3/etc/profile.d/conda.csh
+no change     /home/mfatima/.bashrc
+No action taken.
+Started at Fri Jun 13 09:36:05 CEST 2025
+Running job: ConvNeXt array id: 8 using 8 cpus per node with given JID 33484 on queue gpu-vram-48gb
+--result
+{
+    "model": "convnext_base.fb_in1k",
+    "top1": 78.358,
+    "top1_err": 21.642,
+    "top5": 94.43,
+    "top5_err": 5.57,
+    "param_count": 88.59,
+    "img_size": 288,
+    "crop_pct": 1.0,
+    "interpolation": "bicubic"
+}
+Runtime: 129

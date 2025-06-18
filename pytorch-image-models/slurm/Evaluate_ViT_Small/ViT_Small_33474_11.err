@@ -1,0 +1,32 @@
+Validating in torch.float32. AMP not enabled.
+Loading pretrained weights from Hugging Face hub (timm/vit_small_patch16_224.augreg_in21k_ft_in1k)
+[timm/vit_small_patch16_224.augreg_in21k_ft_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+Model vit_small_patch16_224.augreg_in21k_ft_in1k created, param count: 22050664
+Data processing configuration for current model + dataset:
+	input_size: (3, 224, 224)
+	interpolation: bicubic
+	mean: (0.5, 0.5, 0.5)
+	std: (0.5, 0.5, 0.5)
+	crop_pct: 0.9
+	crop_mode: center
+Test: [   0/196]  Time: 0.748s (0.748s,  342.11/s)  Loss:  0.8880 (0.8880)  Acc@1:  79.297 ( 79.297)  Acc@5:  94.141 ( 94.141)
+Test: [  10/196]  Time: 0.126s (0.194s, 1317.50/s)  Loss:  1.6833 (1.1208)  Acc@1:  54.297 ( 72.230)  Acc@5:  85.547 ( 91.016)
+Test: [  20/196]  Time: 0.128s (0.163s, 1573.21/s)  Loss:  1.3488 (1.0979)  Acc@1:  72.656 ( 73.047)  Acc@5:  83.594 ( 90.885)
+Test: [  30/196]  Time: 0.125s (0.151s, 1698.99/s)  Loss:  1.1958 (1.0845)  Acc@1:  70.312 ( 73.778)  Acc@5:  91.406 ( 90.890)
+Test: [  40/196]  Time: 0.124s (0.144s, 1773.21/s)  Loss:  0.9132 (1.0963)  Acc@1:  74.609 ( 72.761)  Acc@5:  94.141 ( 91.120)
+Test: [  50/196]  Time: 0.123s (0.140s, 1822.13/s)  Loss:  0.8914 (1.0795)  Acc@1:  75.391 ( 72.595)  Acc@5:  92.969 ( 91.521)
+Test: [  60/196]  Time: 0.125s (0.138s, 1853.79/s)  Loss:  1.8609 (1.1060)  Acc@1:  62.500 ( 71.888)  Acc@5:  80.859 ( 91.457)
+Test: [  70/196]  Time: 0.125s (0.136s, 1878.18/s)  Loss:  1.0785 (1.0933)  Acc@1:  70.703 ( 72.403)  Acc@5:  92.969 ( 91.483)
+Test: [  80/196]  Time: 0.126s (0.135s, 1897.58/s)  Loss:  2.4268 (1.1555)  Acc@1:  45.703 ( 71.427)  Acc@5:  75.000 ( 90.731)
+Test: [  90/196]  Time: 0.126s (0.134s, 1912.38/s)  Loss:  2.7623 (1.3120)  Acc@1:  43.750 ( 69.158)  Acc@5:  70.312 ( 88.599)
+Test: [ 100/196]  Time: 0.126s (0.133s, 1924.68/s)  Loss:  1.7157 (1.4133)  Acc@1:  58.984 ( 67.354)  Acc@5:  84.766 ( 87.287)
+Test: [ 110/196]  Time: 0.125s (0.132s, 1935.18/s)  Loss:  2.4359 (1.5282)  Acc@1:  55.469 ( 65.759)  Acc@5:  75.781 ( 85.846)
+Test: [ 120/196]  Time: 0.126s (0.132s, 1943.90/s)  Loss:  2.0139 (1.5795)  Acc@1:  59.766 ( 65.138)  Acc@5:  76.172 ( 85.082)
+Test: [ 130/196]  Time: 0.126s (0.131s, 1950.92/s)  Loss:  1.8554 (1.6493)  Acc@1:  62.891 ( 63.967)  Acc@5:  82.031 ( 84.125)
+Test: [ 140/196]  Time: 0.126s (0.131s, 1957.53/s)  Loss:  2.6330 (1.7064)  Acc@1:  51.562 ( 63.317)  Acc@5:  68.750 ( 83.364)
+Test: [ 150/196]  Time: 0.125s (0.130s, 1963.16/s)  Loss:  2.4704 (1.7545)  Acc@1:  55.078 ( 62.487)  Acc@5:  71.875 ( 82.665)
+Test: [ 160/196]  Time: 0.125s (0.130s, 1968.06/s)  Loss:  2.0307 (1.7916)  Acc@1:  61.719 ( 61.974)  Acc@5:  77.734 ( 82.155)
+Test: [ 170/196]  Time: 0.125s (0.130s, 1972.40/s)  Loss:  1.5633 (1.8215)  Acc@1:  62.891 ( 61.433)  Acc@5:  85.547 ( 81.782)
+Test: [ 180/196]  Time: 0.125s (0.130s, 1975.48/s)  Loss:  1.9735 (1.8612)  Acc@1:  50.781 ( 60.644)  Acc@5:  80.469 ( 81.274)
+Test: [ 190/196]  Time: 0.125s (0.129s, 1978.97/s)  Loss:  4.1668 (1.8634)  Acc@1:  23.438 ( 60.653)  Acc@5:  51.953 ( 81.258)
+ * Acc@1 60.610 (39.390) Acc@5 81.204 (18.796)
