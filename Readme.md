@@ -1,23 +1,27 @@
-# Corner_Cases
+# Corner Cases: How Size and Position of Objects Challenge ImageNet-Trained Models
 
 ## Overview
 
-This repository contains datasets, scripts, and experiments focused on handling corner cases for paper:
-Corner Cases: How Size and Position of Objects Challenge ImageNet-Trained Models - 
-https://arxiv.org/abs/2505.03569.  
-The goal is to identify corner cases and improve robustness by addressing rare or challenging scenarios that typical models might fail on.
+This repository contains datasets, scripts, and experiments for the TMLR paper:  
+**“Corner Cases: How Size and Position of Objects Challenge ImageNet-Trained Models”**  
+
+The goal is to identify corner cases in object recognition and improve model robustness by addressing rare or challenging scenarios where standard ImageNet-trained models may fail.  
+
+We introduce a dataset, **Hard Spurious ImageNet**, specifically designed to highlight corner cases. The dataset will be publicly released soon.
+
+---
 
 ## Getting Started
 
 ### Prerequisites
 
-- Python 3.8+  
+- Python 3.8 or higher  
 - PyTorch >= 1.8 (if applicable)  
 - Other dependencies listed in `requirements.txt` (if available)
 
 ### Installation
 
-Clone the repo:
+Clone the repository:
 
 ```bash
 git clone https://github.com/Mishalfatima/Corner_Cases.git
