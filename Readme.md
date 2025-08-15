@@ -5,7 +5,7 @@
 This repository contains datasets, scripts, and experiments for the TMLR paper:  
 **“Corner Cases: How Size and Position of Objects Challenge ImageNet-Trained Models”**  
 
-The goal is to identify corner cases in object recognition and improve model robustness by addressing rare or challenging scenarios where standard ImageNet-trained models may fail.  
+The goal is to identify corner cases in image classification by addressing rare or challenging scenarios where standard ImageNet-trained models may fail.  
 
 We introduce a dataset, **Hard Spurious ImageNet**, specifically designed to highlight corner cases. The dataset will be publicly released soon.
 
