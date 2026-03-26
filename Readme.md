@@ -45,7 +45,7 @@ Remove objects from ImageNet images using inpainting. This can be done for both 
 python Inpaint-Anything/remove_anything_ImageNet.py \
     --pkl_file_path Inpaint-Anything/val_GT_bboxes.pkl \
     --imagenet_path dataset/ImageNet/val \
-    --output_path dataset/Inpainted_ImageNet_GT/val
+    --output_path dataset/Inpainted_ImageNet_GT/test
 
 # Training split
 python Inpaint-Anything/remove_anything_ImageNet.py \
