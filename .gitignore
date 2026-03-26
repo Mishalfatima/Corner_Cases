@@ -5,3 +5,5 @@ dataset/
 *.pkl
 *.pt
 dataset/
+Inpaint-Anything/pretrained_models/
+Inpaint-Anything/train_GT_bboxes.pkl
