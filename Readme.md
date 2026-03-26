@@ -24,7 +24,7 @@ pip install -r requirements.txt
 
 ### Downloads
 
-Download the model checkpoints provided in [Segment Anything](Inpaint-Anything/segment_anything/README.md) and [LaMa](Inpaint-Anything/lama/README.md) (e.g., [sam_vit_h_4b8939.pth](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth) and [big-lama](https://disk.yandex.ru/d/ouP6l8VJ0HpMZg)), and put them into `./pretrained_models`. For simplicity, you can also go [here](https://drive.google.com/drive/folders/1ST0aRbDRZGli0r7OVVOQvXwtadMCuWXg?usp=sharing), directly download [pretrained_models](https://drive.google.com/drive/folders/1wpY-upCo4GIW4wVPnlMh_ym779lLIG2A?usp=sharing), put the directory into `./Inpaint-Anything` and get `Inpaint-Anything/pretrained_models`.
+Download the model checkpoints provided in [Segment Anything](Inpaint-Anything/segment_anything/README.md) and [LaMa](Inpaint-Anything/lama/README.md) (e.g., [sam_vit_h_4b8939.pth](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth) and [big-lama](https://disk.yandex.ru/d/ouP6l8VJ0HpMZg)), and put them into `Inpaint-Anything/pretrained_models`. For simplicity, you can also go [here](https://drive.google.com/drive/folders/1ST0aRbDRZGli0r7OVVOQvXwtadMCuWXg?usp=sharing), directly download [pretrained_models](https://drive.google.com/drive/folders/1wpY-upCo4GIW4wVPnlMh_ym779lLIG2A?usp=sharing), put the directory into `Inpaint-Anything` and get `Inpaint-Anything/pretrained_models`.
 
 Download normalized ImageNet bounding boxes from [Google Drive](https://drive.google.com/drive/folders/1OrUe4u7H7NEGjxNDgNaUr6_hByO4OPFG).
 
